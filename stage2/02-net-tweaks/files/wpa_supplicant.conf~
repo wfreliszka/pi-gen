@@ -1,0 +1,21 @@
+country=GB
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+	ssid="fnetwork"
+	#psk="JoGi45Bambo56"
+		psk=a6c14979756745283252d97d38d2c6231ceb7ef0e39d8c941f3c2e2cb8f3ad46
+	priority=1
+	id_str="homeOne"
+}
+
+
+network={
+	ssid="kretowisko"
+	#psk="mlecznakrowa"
+	psk=042c4603bba43cade0c1bd6bbb94986cdbf371e64cdcfbddd963907462410e08
+	priority=2
+	id_str="homeTwo"
+}
+
